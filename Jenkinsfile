@@ -5,7 +5,7 @@ pipeline {
 			steps {
             git branch: 'master',
                 url: 'https://github.com/ladyusa/cpe2.git'
-      }
+			}
 		}
     stage('Build') {
 			steps {
