@@ -5,8 +5,8 @@ RUN apt-get update && \
             nodejs \
             npm
 RUN git clone \
-    https://github.com/fourcolorssuffice/cpe2.git
+    https://github.com/ladyusa/cpe2.git
 WORKDIR /cpe2
 RUN npm install
-EXPOSE 8000
+EXPOSE 9000
 CMD ["npm", "start"]
